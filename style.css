@@ -1,0 +1,156 @@
+body{
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+header{
+
+    width:250px;
+    line-height:0px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:30px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top:25px;
+}
+h1 {
+    margin-bottom: 100px;
+    color:white;
+    background-color:#4aaaa5;
+}
+.menu{
+    position:absolute;
+    background-color: #ffffff;
+    border-color:#cccccc;
+    border-width:3px;
+    border-style:solid;
+    padding-top: 0px;
+    padding-left: 900px;
+    top:0px;
+    margin-top:0px;
+    margin-right: 00px;
+    margin-left:0 px;
+    border-top: 0px;
+    width: 100%;
+    margin-bottom:0px;
+    line-height: 80px;
+    float: right !important;
+    color:#777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:16px;
+}
+.divider-vertical{
+    border-right: 1px solid #333
+}
+
+
+.wrapper{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style:solid;
+    border-width:3px;
+    width:650px;
+    float:left;
+    color:#777777;
+    border-top:0px;
+    border-bottom:25px;
+    margin-left:36px;
+    margin-right: 0px;
+    font-size:14px;
+    margin-top: 5px;
+    padding-top:40px;
+}
+img{
+    float: left;
+    padding:5px;
+    height:125px;
+    width:125px;
+}
+h3{
+    color:#4aaaa5;
+    font-size:20px;
+    padding-top:50px;
+    padding-left:20px;
+}
+#social{
+    background-color: #ffffff;
+    margin-left: 960px;
+    width: 270px;
+    height: 0px;
+    margin-bottom: 0px;
+    margin-top:0px;
+}
+a:hover{
+    background-color: #4aaaa5
+}
+.footer{
+        margin-top: 90%;
+        position:absolute; 
+        right:0;
+        bottom:0;
+        left:0;
+        padding:1rem;
+        background-color: #666666;
+        color:#777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:640px){
+/* For mobile phones: */
+.header {
+    width: 95%;
+}
+.wrapper {
+    width: 60%;
+    padding: 3% 4%;
+}
+.menu {
+    width: 30%;
+}
+#social {
+    padding: 8% 7%;
+    margin-bottom: 10px;
+}
+}
+
+@media only screen and (max-width:768px){
+/* For tablets: */
+.header {
+    width: 95%;
+}
+.wrapper {
+    width: 60%;
+    padding: 3% 4%;
+}
+.menu {
+    width: 30%;
+}
+#social {
+    padding: 8% 7%;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width:980px) {
+/* For desktop: */
+.header {
+    width: 95%;
+}
+
+.wrapper {
+    width: 60%;
+    padding: 3% 4%;
+}
+
+.menu {
+    width: 30%;
+}
+#social {
+    width:30%;
+    padding: 8% 7%;
+    margin-bottom: 10px;
+}
+}
+}
